@@ -1,5 +1,6 @@
 # Solicite um nome de usuário e uma senha e use uma estrutura if else para verificar se o nome de usuário e a senha fornecidos correspondem aos valores esperados determinados por você.
-
+# Funciona mas ta errado alguma coisa que eu vou descobrir
+# Ele executa duas vezes e da valido mesmo estando errado
 def usuario():
     nome = input('Qual seu nome: ')
     senha = int(input('Digite uma senha: '))
@@ -21,4 +22,5 @@ def main():
     verificacao()
 
 if __name__ == '__main__':
+
     main()
